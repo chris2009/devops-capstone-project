@@ -20,7 +20,7 @@ spec:
       template:
         spec:
           containers:
-          - image: 
+          - image: IMAGE_NAME_HERE
             name: accounts
             resources: {}
             
