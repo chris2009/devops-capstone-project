@@ -17,13 +17,11 @@ spec:
       labels:
         app: accounts
     spec:
-      template:
-        spec:
-          containers:
-          - image: IMAGE_NAME_HERE
-            name: accounts
-            resources: {}
-            
+      containers:
+      - image: IMAGE_NAME_HERE
+        name: accounts
+        resources: {}
+        
         env:
           - name: DATABASE_HOST
             value: postgresql
